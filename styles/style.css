@@ -30,6 +30,10 @@ body {
   align-items: center;
   color: white;
   text-decoration: none;
+  padding: 10px;
+}
+.sidebar ul li a:hover {
+  background-color: rgb(0, 69, 87);
 }
 .sidebar svg {
   height: 1.2em;
