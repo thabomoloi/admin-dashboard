@@ -51,6 +51,14 @@ body {
   grid-template: auto auto / 2fr 1fr;
   grid-area: header;
 }
+.profile img {
+  height: 3em;
+  border-radius: 100%;
+}
+.greeting img {
+  height: 5em;
+  border-radius: 100%;
+}
 
 .search-bar button,
 .user-info button {
