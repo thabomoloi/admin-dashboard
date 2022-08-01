@@ -59,6 +59,7 @@ body {
   grid-template: auto auto / 2fr 1fr;
   grid-area: header;
   padding: 1em 3em;
+  box-shadow: 1px 1px 1px 1px rgb(134, 134, 134);
 }
 .user-info {
   display: flex;
