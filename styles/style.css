@@ -50,11 +50,28 @@ body {
   display: grid;
   grid-template: auto auto / 2fr 1fr;
   grid-area: header;
+  padding: 1em 4em 1em 3em;
 }
 .user-info {
   display: flex;
   align-items: center;
+  padding-bottom: 1em;
   justify-content: flex-end;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+.search-bar input {
+  flex: 1;
+  height: 1.2em;
+  font-size: 1.2em;
+  border: none;
+  background: rgb(233, 233, 233);
+  border-radius: 10px;
+  padding: 0 10px;
 }
 .profile {
   display: flex;
@@ -62,13 +79,30 @@ body {
   font-size: 1.2em;
   font-weight: 600;
 }
+.greeting h3 {
+  margin: 0;
+  padding-top: 0.25em;
+}
+.greeting {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.header-buttons button {
+  width: 7.5em;
+}
 .profile img {
-  height: 2.5em;
+  height: 2em;
   border-radius: 100%;
   margin: 0 20px;
 }
 .greeting img {
-  height: 5em;
+  height: 4em;
   border-radius: 100%;
 }
 
