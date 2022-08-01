@@ -14,6 +14,7 @@ body {
   background-color: rgb(24, 3, 80);
   color: white;
   grid-area: sidebar;
+  padding: 2em 4em 2em 1.5em;
 }
 .title {
   font-size: 1.5em;
