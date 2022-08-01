@@ -51,3 +51,9 @@ body {
   grid-template: auto auto / 2fr 1fr;
   grid-area: header;
 }
+
+.search-bar button,
+.user-info button {
+  background: none;
+  border: none;
+}
