@@ -51,9 +51,21 @@ body {
   grid-template: auto auto / 2fr 1fr;
   grid-area: header;
 }
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 600;
+}
 .profile img {
-  height: 3em;
+  height: 2.5em;
   border-radius: 100%;
+  margin: 0 20px;
 }
 .greeting img {
   height: 5em;
