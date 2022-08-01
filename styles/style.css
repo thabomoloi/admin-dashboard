@@ -50,7 +50,8 @@ body {
   display: grid;
   grid-template: auto auto / 2fr 1fr;
   grid-area: header;
-  padding: 1em 4em 1em 3em;
+  padding: 1em 3em;
+  background-color: rgb(0, 161, 35);
 }
 .user-info {
   display: flex;
@@ -61,8 +62,8 @@ body {
 .search-bar {
   display: flex;
   align-items: center;
-  padding-right: 2em;
-  padding-bottom: 1em;
+  margin-right: 2em;
+  margin-bottom: 1em;
 }
 .search-bar input {
   flex: 1;
@@ -94,7 +95,11 @@ body {
   gap: 2em;
 }
 .header-buttons button {
-  width: 7.5em;
+  width: 7em;
+  padding: 0.5em;
+  border: none;
+  font-size: 1em;
+  border-radius: 15px;
 }
 .profile img {
   height: 2em;
