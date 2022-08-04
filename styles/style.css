@@ -163,6 +163,14 @@ body {
   padding: 1em 2em;
 }
 
+.announcement-container > div {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+}
+.announcement-container > div:last-child {
+  border-bottom: none;
+  padding-bottom: 0.5em;
+}
 .trending img {
   width: 3.5em;
   border-radius: 100%;
