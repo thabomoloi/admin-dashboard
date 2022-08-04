@@ -163,6 +163,11 @@ body {
   padding: 1em 2em;
 }
 
+.announcement-container {
+  box-shadow: 1px 1px 1px 1px rgb(134, 134, 134);
+  padding: 0.5em 2em;
+  border-radius: 10px;
+}
 .announcement-container > div {
   border-bottom: 1px solid black;
   padding-bottom: 1em;
@@ -190,5 +195,6 @@ body {
   grid-template-columns: 2fr 1fr;
 }
 .right-section {
-  padding: 1em 2em;
+  margin-right: 3em;
+  padding: 1em 0;
 }
