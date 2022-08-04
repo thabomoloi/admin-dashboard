@@ -162,3 +162,17 @@ body {
 .projects {
   padding: 1em 2em;
 }
+
+.trending img {
+  width: 3.5em;
+  border-radius: 100%;
+}
+.trending p {
+  margin: 5px;
+}
+.training-container > div {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.25em;
+}
