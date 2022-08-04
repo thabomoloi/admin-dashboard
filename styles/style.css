@@ -184,3 +184,11 @@ body {
   gap: 1em;
   padding: 0.25em;
 }
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.right-section {
+  padding: 1em 2em;
+}
