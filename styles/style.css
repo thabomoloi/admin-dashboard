@@ -159,3 +159,6 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2em;
 }
+.projects {
+  padding: 1em 2em;
+}
