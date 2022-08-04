@@ -189,6 +189,14 @@ body {
   gap: 1em;
   padding: 0.25em;
 }
+.trending {
+  padding: 1em 0;
+}
+.training-container {
+  box-shadow: 1px 1px 1px 1px rgb(134, 134, 134);
+  padding: 2em;
+  border-radius: 10px;
+}
 
 .main-content {
   display: grid;
