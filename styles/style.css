@@ -206,3 +206,13 @@ body {
   margin-right: 3em;
   padding: 1em 0;
 }
+.links {
+  text-align: right;
+  padding: 0 2em 1em;
+}
+.links a {
+  color: black;
+}
+.links a:hover {
+  color: var(--theme-color4);
+}
