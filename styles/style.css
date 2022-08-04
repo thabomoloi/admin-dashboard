@@ -138,3 +138,18 @@ body {
   background: none;
   border: none;
 }
+
+/***  MAIN ***/
+.project img {
+  width: 12em;
+  padding: 0 10px 10px;
+}
+.project h4 {
+  margin: 0;
+  padding: 10px;
+}
+.project {
+  border-left: 10px solid var(--theme-color2);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(134, 134, 134);
+}
