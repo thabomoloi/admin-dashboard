@@ -153,3 +153,9 @@ body {
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px rgb(134, 134, 134);
 }
+.project-container {
+  resize: both;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2em;
+}
